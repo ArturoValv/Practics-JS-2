@@ -1,0 +1,63 @@
+[
+  {
+    "id": "978-0641723445",
+    "cat": ["book", "hardcover"],
+    "name": "The Lightning Thief",
+    "author": "Rick Riordan",
+    "series_t": "Percy Jackson and the Olympians",
+    "genre_s": "fantasy",
+    "inStock": true,
+    "price": 12,
+    "pages_i": 384
+  },
+  {
+    "id": "978-1857995879",
+    "cat": ["book", "paperback"],
+    "name": "Sophie's World : The Greek Philosophers",
+    "author": "Jostein Gaarder",
+    "genre_s": "fantasy",
+    "inStock": true,
+    "price": 3,
+    "pages_i": 64
+  },
+  {
+    "id": "978-1933988177",
+    "cat": ["book", "paperback"],
+    "name": "Lucene in Action, Second Edition",
+    "author": "Michael McCandless",
+    "genre_s": "IT",
+    "inStock": true,
+    "price": 30,
+    "pages_i": 475
+  },
+  {
+    "id": "978-3234194554",
+    "cat": ["book", "hardcover"],
+    "name": "Momo",
+    "author": "Michael Ende",
+    "genre_s": "Fantastic Novel",
+    "inStock": true,
+    "price": 8,
+    "pages_i": 380
+  },
+  {
+    "id": "978-9845745464",
+    "cat": ["book", "paperback"],
+    "name": "Foundation",
+    "author": "Issac Asimoc",
+    "genre_s": "SciFi Novel",
+    "inStock": true,
+    "price": 15,
+    "pages_i": 326
+  },
+  {
+    "id": "978-7593093485",
+    "cat": ["book", "paperback"],
+    "name": "Physics Vol. 1",
+    "author": ["Resnick", "Halliday", "Krane"],
+    "genre_s": "Physics",
+    "inStock": true,
+    "price": 35,
+    "pages_i": 623
+  }
+]

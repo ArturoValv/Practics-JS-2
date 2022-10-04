@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular áreas y perímetros</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <form action="" id="formFiguras">
+      <fieldset>
+        <legend>Calcular áreas y perímetros</legend>
+        <p>
+          Ingresa un lado si tu figura es cuadrado, 2 si es rectángulo, 3 si es
+          triángulo
+        </p>
+        <label for="ladoA">Lado A</label>
+        <input
+          type="number"
+          name="ladoA"
+          id="ladoA"
+          placeholder="Ingresa el valor del lado"
+          min="0"
+          step=".01"
+          required
+        />
+        <label for="ladoB">Lado B</label>
+        <input
+          type="number"
+          name="ladoB"
+          id="ladoB"
+          placeholder="Ingresa el valor del lado"
+          min="0"
+          step=".01"
+        />
+        <label for="ladoC">Lado C</label>
+        <input
+          type="number"
+          name="ladoC"
+          id="ladoC"
+          placeholder="Ingresa el valor del lado"
+          min="0"
+          step=".01"
+        />
+      </fieldset>
+      <input type="submit" value="Calcular" />
+    </form>
+
+    <script src="../scripts.js"></script>
+  </body>
+</html>

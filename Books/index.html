@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libros</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <h1 class="text-center">Sistema de Librería</h1>
+    <form action="" id="formLibreria">
+      <fieldset>
+        <legend class="text-center">Buscar Libros</legend>
+        <label for="titulos">Títulos:</label>
+        <select name="titulos" id="titulos">
+          <option value="">--Selecciona--</option>
+          <template id="titulosTemp">
+            <option value=""></option>
+          </template>
+        </select>
+        <label for="precio">Intervalo de precio:</label>
+        <select name="precio" id="precio">
+          <option value="">--Selecciona--</option>
+          <option value="menor20">0 - $20</option>
+          <option value="mayor20">$20 +</option>
+        </select>
+        <label for="autor">Autor:</label>
+        <select name="autor" id="autor">
+          <option value="">--Selecciona--</option>
+          <template id="autorTemp">
+            <option value=""></option>
+          </template>
+        </select>
+        <input type="submit" value="Buscar" />
+        <input type="button" value="Borrar Tabla" id="borrar">
+      </fieldset>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Autor</th>
+          <th>Género</th>
+          <th>Categoría</th>
+          <th>Páginas</th>
+          <th>Stock</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <template id="libros">
+          <tr></tr>
+        </template>
+      </tbody>
+    </table>
+    <script src="../scripts.js"></script>
+  </body>
+</html>

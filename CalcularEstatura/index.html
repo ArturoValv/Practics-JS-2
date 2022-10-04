@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Calculdora de Crecimiento</title>
+  </head>
+  <body>
+    <form action="" id="formEstatura">
+      <fieldset>
+        <legend>Calculadora de Crecimiento</legend>
+        <div>
+          <p>Selecciona el Sexo del Niño</p>
+          <label for="fem">Femenino</label>
+          <input type="radio" name="sexo" id="fem" class="sexo" value="fem" />
+          <label for="masc">Masculino</label>
+          <input type="radio" name="sexo" id="masc" class="sexo" value="masc" />
+        </div>
+        <label for="madre">Ingresa la estatura de la Madre en cm</label>
+        <input
+          type="number"
+          name="madre"
+          id="madre"
+          placeholder="Ingresa la estatura de la Madre"
+          min="0"
+          step=".01"
+          required
+        />
+        <label for="padre">Ingresa la estatura del Padre en cm</label>
+        <input
+          type="number"
+          name="padre"
+          id="padre"
+          placeholder="Ingresa la estatura del Padre"
+          min="0"
+          step=".01"
+          required
+        />
+        <input type="submit" value="Calcular" />
+      </fieldset>
+    </form>
+
+    <script src="../scripts.js"></script>
+  </body>
+</html>
